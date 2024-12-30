@@ -1,0 +1,68 @@
+html ,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.en {
+    background-color: blue;
+    color: white;
+}
+input{
+    height: 55px;
+    width: 350px;
+    border-color:blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+input::placeholder{
+    color: rgb(12, 11, 11);
+}
+.vert{
+    color:white;
+    background: rgba(42, 250, 0, 0.815);
+    height: 60px;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.918);
+    color: white;
+    height: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+}
+table{
+    background-color: antiquewhite;
+    color: white;
+    border: none;
+    width: 90%;}
+    
+tr{
+    background-color: rgb(9, 17, 31);
+    width: 100%;
+    border: none;
+}
+td {
+    background-color: rgb(255, 102, 0);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
